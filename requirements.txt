@@ -1,0 +1,7 @@
+jupyter
+pillow
+scikit-learn
+efficientnet_pytorch
+pycm
+livelossplot
+csv
