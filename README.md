@@ -2,6 +2,8 @@
 ## The Identification Game
 #### Team Sigmoid: Hanchao Chen, Mia Chen, Reece Situ, Nicolas Trinephi, Ke Wen
 
+![image](https://drive.google.com/uc?export=view&id=1t-_91-nlfP3HWmTb_dEefPwl6ckfcPrW)
+
 This repository contains two Jupyter Notebooks for the final two submissions to [The Identification Game Kaggle competition](https://www.kaggle.com/c/acse-miniproject/overview) by Team Sigmoid, as part of the ACSE-4 2019/20 module.
 
 ### User Instructions & Requirements
