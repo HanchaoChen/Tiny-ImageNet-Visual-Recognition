@@ -10,9 +10,9 @@ This repository contains two Jupyter Notebooks for the final two submissions to 
 
 The software dependencies can be found in the `requirements.txt` file in this repository. We recommend having at least 12GB of available GPU RAM available when running the notebooks.
 
-The notebooks will download and prepare the complete dataset, perform preprocessing and validation, then train the model on the full (augmented) training dataset, classify the test images and output both a .pth file containing the trained model weights and a CSV file including the test file names and predicted classes.
+The notebooks will download and prepare the complete dataset, perform preprocessing and validation, then train the respective models on the full (augmented) training dataset, classify the test images and output both a .pth file containing the trained model weights and a CSV file including the test file names and predicted classes.
 
-The most straightforward way to run the notebooks is via Google Colab. Simply open [Google Colab](https://colab.research.google.com/), log into or create a Google account, select `File > Open notebook > GitHub` and paste the URL of this repository to load the notebooks. Then, select `Runtime > Change runtime type` and change the hardware accelerator to GPU. Once loaded, all cells can be run in order. The notebook will download the dataset used in this project. These notebooks are very memory-heavy in exchange for performance, but the standard allocated 12GB from Colab should be more than enough.
+The most straightforward way to run the notebooks is via Google Colab. Simply open [Google Colab](https://colab.research.google.com/), log into or create a Google account, select `File > Open notebook > GitHub` and paste the URL of this repository to load the notebooks. Then, select `Runtime > Change runtime type` and change the hardware accelerator to GPU. Once loaded, all cells can be run in order. These notebooks are very memory-heavy in exchange for performance, but the standard allocated 12GB from Colab should be more than enough.
 
 If run on a local machine, we recommend using Conda. Please set up PyTorch by running the following commands:
 ```
@@ -28,7 +28,7 @@ And run the following to open the notebooks.
 ```
 jupyter notebook
 ```
-Once opened, run all the cells. The notebook will download the dataset used in this project. 
+Once opened, run all the cells in order.
 
 ### Documentation
 
