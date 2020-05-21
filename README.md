@@ -46,7 +46,7 @@ The two convolutional neural network architectures used in the final submissions
 EfficientNet ([Tan & Le, 2019](https://arxiv.org/abs/1905.11946/)) was created with the idea to balance network depth, width and resolution to achieve higher performance at much higher efficiency than other networks. In this project, the PyTorch implementation of EfficientNet pretrained on ImageNet found [here](https://github.com/lukemelas/EfficientNet-PyTorch/) was used to achieve a final macro F1-score of 0.76598.
 
 
-#### ResNet151
+#### ResNet152
 Residual Neural Networks (ResNet) ([He et al, 2016](https://arxiv.org/pdf/1512.03385.pdf)) build on the idea of skipping layers and adapting the skipped weights to speed up training. In this project, the `torchvision.models` implementation of a pre-trained ResNet152 was used to achieve a final macro F1-score of 0.75782.
 
 
