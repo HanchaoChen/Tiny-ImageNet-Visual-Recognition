@@ -40,14 +40,14 @@ A dataset of 100000 JPEG images (mostly RGB) of dimension 64 x 64 belonging to 2
 
 ### Models
 
-The two convolutional neural network architectures used in the final submissions were EfficientNet-B7 and ResNet152, both pre-trained on the ImageNet dataset. 
+The two convolutional neural network architectures used in the final submissions were EfficientNet-B7 and ResNet152, both pre-trained on the ImageNet dataset. For more details about the implementation of these models and the hyperparameters, please see the respective notebooks.
 
 #### EfficientNet
-EfficientNet ([Tan & Le, 2019](https://arxiv.org/abs/1905.11946/)) was created with the idea to balance network depth, width and resolution to achieve higher performance at much higher efficiency than other networks. In this project, the PyTorch implementation of EfficientNet pretrained on ImageNet found [here](https://github.com/lukemelas/EfficientNet-PyTorch/) was used to achieve a final macro F1-score of ___.
+EfficientNet ([Tan & Le, 2019](https://arxiv.org/abs/1905.11946/)) was created with the idea to balance network depth, width and resolution to achieve higher performance at much higher efficiency than other networks. In this project, the PyTorch implementation of EfficientNet pretrained on ImageNet found [here](https://github.com/lukemelas/EfficientNet-PyTorch/) was used to achieve a final macro F1-score of 0.76598.
 
 
 #### ResNet151
-Residual Neural Networks (ResNet) ([He et al, 2016](https://arxiv.org/pdf/1512.03385.pdf)) build on the idea of skipping layers and adapting the skipped weights to speed up training. In this project, the `torchvision.models` implementation of a pre-trained ResNet152 was used to achieve a final macro F1-score of ___.
+Residual Neural Networks (ResNet) ([He et al, 2016](https://arxiv.org/pdf/1512.03385.pdf)) build on the idea of skipping layers and adapting the skipped weights to speed up training. In this project, the `torchvision.models` implementation of a pre-trained ResNet152 was used to achieve a final macro F1-score of 0.75782.
 
 
 ### Acknowledgements
@@ -55,7 +55,7 @@ We would like to thank the ACSE-8 and ACSE-4 teaching teams and GTAs for providi
 
 ### License
 
-This software is published under the MIT License.
+This software is published under the [MIT License](https://github.com/acse-2019/acse4-4-sigmoid/blob/master/LICENSE).
 
 ### References
 
