@@ -78,7 +78,7 @@ Class CustomeDataset(Dataset):
 
 	Parameters:
 	-----------
-		data: ImageFolder object containing the full set of data to be subsampled
+		data: array-like containing the full set of data to be subsampled
         targets: array-like containing the stratified shuffle targets
         transform (callable, optional): Optional transforms to be applied, default None
         idx: integer
@@ -217,7 +217,7 @@ Class CustomeDataset(Dataset):
 
 	Parameters:
 	-----------
-		data: ImageFolder object containing the full set of data to be subsampled
+		data: array-like containing the full set of data to be subsampled
         targets: array-like containing the stratified shuffle targets
         transform (callable, optional): Optional transforms to be applied, default None
         idx: integer
