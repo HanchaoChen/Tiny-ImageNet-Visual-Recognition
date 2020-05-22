@@ -27,6 +27,7 @@ Both models presented use pretrained ImageNet weights.
 Required libraries:
 -------------------
 jupyter
+requests
 pytorch
 torchvision
 pillow
