@@ -28,7 +28,7 @@ And run the following to open the notebooks.
 ```
 jupyter notebook
 ```
-Once opened, run all the cells in order.
+Once opened, you can run the cells following the instruction. The function of each cell is described in the notebook.
 
 ### Documentation
 
