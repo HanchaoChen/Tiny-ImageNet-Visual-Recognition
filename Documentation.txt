@@ -39,6 +39,29 @@ csv
 
 EfficientNet-B7
 -----------------------------------------------------------------------------------------------------------------------------------------------
+download_file_from_google_drive(id, destination):
+	downloads a file from google drive, used here to download image tensors.
+	Parameters:
+	-----------
+		id : string
+			file_id used in URL to find file on Google servers
+		destination : string
+			file download destination
+
+get_confirm_token(response):
+	Parameters:
+	-----------
+		response: session URL object
+			used for permission confirmation
+
+save_response_content(response, destination):
+	Parameters:
+	-----------
+		response: session URL object
+			used for permission confirmation
+		destination: string
+			file download destination
+
 Class CustomeDataset(Dataset):
 	Creates custom dataset for image loading
 	Dataset: torch.utils.data.Dataset object
@@ -154,6 +177,30 @@ test(test_loader, model):
 
 ResNet152
 ----------------------------------------------------------------------------------------------------------------------------------------------
+download_file_from_google_drive(id, destination):
+	downloads a file from google drive, used here to download image tensors.
+	Parameters:
+	-----------
+		id : string
+			file_id used in URL to find file on Google servers
+		destination : string
+			file download destination
+
+get_confirm_token(response):
+	Parameters:
+	-----------
+		response: session URL object
+			used for permission confirmation
+
+save_response_content(response, destination):
+	Parameters:
+	-----------
+		response: session URL object
+			used for permission confirmation
+		destination: string
+			file download destination
+
+
 Class CustomeDataset(Dataset):
 	Creates custom dataset for image loading
 	Dataset: torch.utils.data.Dataset object
