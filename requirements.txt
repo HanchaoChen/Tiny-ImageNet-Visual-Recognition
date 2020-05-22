@@ -1,5 +1,6 @@
 jupyter
 requests
+pytorch
 pillow
 scikit-learn
 efficientnet_pytorch
