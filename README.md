@@ -4,7 +4,7 @@
 
 ![image](https://i.ibb.co/myQ1g49/AAAADATA.png)
 
-This repository contains two Jupyter Notebooks for the final two submissions to [The Identification Game Kaggle competition](https://www.kaggle.com/c/acse-miniproject/overview) by Team Sigmoid, as part of the ACSE-4 2019/20 module.
+This repository contains two Jupyter Notebooks for the final two submissions to [The Identification Game Kaggle competition](https://www.kaggle.com/c/acse-miniproject/overview).
 
 ### User Instructions & Requirements
 
