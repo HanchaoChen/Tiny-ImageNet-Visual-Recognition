@@ -1,6 +1,5 @@
 ## Machine Learning project
 ## Image Recognition
-#### Hanchao Chen
 
 ![image](https://i.ibb.co/myQ1g49/AAAADATA.png)
 
