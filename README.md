@@ -53,10 +53,6 @@ Residual Neural Networks (ResNet) ([He et al, 2016](https://arxiv.org/pdf/1512.0
 ### Acknowledgements
 We would like to thank the ACSE-8 and ACSE-4 teaching teams and GTAs for providing and overseeing an enjoyable project and delivering an invaluable learning experience remotely despite unfortunate circumstances due to COVID-19. Additionally, we would like to thank Google Colab for providing the computing resources that made this project possible, as well as the developers of PyTorch, Torchvision and EfficientNet PyTorch. 
 
-### License
-
-This software is published under the [MIT License](https://github.com/acse-2019/acse4-4-sigmoid/blob/master/LICENSE).
-
 ### References
 
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770-778).
